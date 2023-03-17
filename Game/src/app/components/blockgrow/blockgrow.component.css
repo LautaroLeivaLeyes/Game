@@ -1,0 +1,12 @@
+svg {
+  width: 100px;
+  height: 100px;
+  color: orange;
+  box-shadow: 5px 5px 10px black;
+}
+
+svg:hover {
+  transform: scale(1, 2);
+  transition-delay: 0.3s;
+  transform-origin: 5px;
+}

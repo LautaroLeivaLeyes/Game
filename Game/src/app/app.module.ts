@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LeftbarComponent } from './components/leftbar/leftbar.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { TopbarComponent } from './components/topbar/topbar.component';
+import { BlockgrowComponent } from './components/blockgrow/blockgrow.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LeftbarComponent,
     BannerComponent,
-    TopbarComponent
+    TopbarComponent,
+    BlockgrowComponent
   ],
   imports: [
     BrowserModule,
